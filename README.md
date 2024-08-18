@@ -14,7 +14,7 @@ Give it an input string and it will output a scannable barcode made entirely of 
         - May have issues loading images from gallery (tested on Android 11)
     - [Binary Eye (F-Droid)](https://f-droid.org/en/packages/de.markusfisch.android.binaryeye/)
 - ### Desktop
-    - [zbar](https://github.com/herbyme/zbar/tree/master)
+    - [zbar](https://github.com/mchehab/zbar)
 
 ## Implemented Barcode Symbologies
 - ### Interleaved 2 of 5 (ITF)
