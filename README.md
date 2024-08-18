@@ -5,6 +5,8 @@ Give it an input string and it will output a scannable barcode made entirely of 
                         █▐▁▌▁▐█▁▌▐▌█▁▌▁▐▐▐█▁▐▌█▁▐█▐▐▌
 ```
 
+## [Create your own!](https://505e06b2.github.io/BarcodeToText/)
+
 ## Recommended Scanners
 - ### Android
     - [QR & Barcode Scanner (F-Droid)](https://f-droid.org/en/packages/com.example.barcodescanner/)
