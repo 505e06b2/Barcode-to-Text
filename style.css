@@ -20,6 +20,10 @@ select {
 	border: none;
 }
 
+a {
+	color: #eee;
+}
+
 #container {
 	display: flex;
 	flex-direction: column;
@@ -27,6 +31,10 @@ select {
 	max-width: 720px;
 	width: 720px;
 	min-width: 0px;
+}
+
+#data-input-container {
+	display: flex;
 }
 
 #data-input {
@@ -39,6 +47,14 @@ select {
 
 	box-sizing: border-box;
 	width: 100%;
+}
+
+#repo-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	white-space: nowrap;
+	padding: 0.5em;
 }
 
 #barcode-container {
@@ -54,6 +70,7 @@ select {
 }
 
 #data-input:hover,
+#repo-link:hover,
 #barcode-container:hover {
 	background: #555;
 	color: #eee;
