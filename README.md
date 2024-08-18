@@ -1,12 +1,14 @@
 # Barcode to Text
 Give it an input string and it will output a scannable barcode made entirely of [Block Element characters](https://en.wikipedia.org/wiki/Block_Elements)
 
-█▐▁▌▁▐▌█▌▌▁▌▐█▌▐▐▁▁▌█▁▌▁▐▐▌▐▐▌▐▁▁▌██▁▌▐▐█▌▐▁█▁█▐▌▐▐▁█▁▁█▁▐█▐▐▌
+```
+                        █▐▁▌▁▐█▁▌▐▌█▁▌▁▐▐▐█▁▐▌█▁▐█▐▐▌
+```
 
 ## Recommended Scanners
 - ### Android
     - [QR & Barcode Scanner (F-Droid)](https://f-droid.org/en/packages/com.example.barcodescanner/)
-        - Supports directly scanning Dark-mode barcodes (white on black)
+        - Supports directly scanning Dark-mode barcodes (white on black), though may be a bit fiddly
         - May have issues loading images from gallery (tested on Android 11)
     - [Binary Eye (F-Droid)](https://f-droid.org/en/packages/de.markusfisch.android.binaryeye/)
 - ### Desktop
