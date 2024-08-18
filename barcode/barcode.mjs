@@ -1,7 +1,7 @@
 import ITF from "./symbologies/itf.mjs";
 import Code128 from "./symbologies/code128.mjs";
 
-import Log from "./log.mjs";
+import Log from "../log.mjs";
 
 const symbologies = [ITF, Code128]; //order of preference
 

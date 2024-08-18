@@ -1,6 +1,6 @@
 import Settings from "./settings.mjs";
 import Log from "./log.mjs";
-import Barcode from "./barcode.mjs";
+import Barcode from "./barcode/barcode.mjs";
 
 const demo_itf_text = "056055"
 const problematic_themes = ["dark"];

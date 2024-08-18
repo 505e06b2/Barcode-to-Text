@@ -1,5 +1,5 @@
 import Export from "./_export.mjs";
-import Log from "../log.mjs";
+import Log from "../../log.mjs";
 
 //https://en.wikipedia.org/wiki/Interleaved_2_of_5
 
