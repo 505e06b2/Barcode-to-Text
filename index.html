@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#333" />
+		<title>Barcode To Text</title>
+		<link href="style.css" rel="stylesheet">
+		<script src="barcode/main.mjs" type="module"></script>
+	</head>
+	<body>
+		<form id="container">
+			<div id="data-input-container">
+				<input id="data-input" type="text" placeholder="Enter Text...">
+			</div>
+			<div id="barcode-container">
+				<div id="barcode" class="theme-light font-serif"></div>
+			</div>
+			<div id="utilities-container">
+				<div id="settings-container">
+					<div class="settings-label">
+						<span>Symbology:</span>
+					</div>
+					<select id="symbology">
+						<option value="auto">Auto</option>
+						<option value="itf">ITF</option>
+						<option value="code128">Code 128</option>
+					</select>
+
+					<div class="settings-label">
+						<span>Font Size:</span>
+					</div>
+					<select id="font_size">
+						<option value="xxx-large">XXX Large</option>
+						<option value="xx-large">XX Large</option>
+						<option value="x-large">X Large</option>
+						<option value="larger">Larger</option>
+						<option value="large">Large</option>
+						<option value="medium">Medium</option>
+						<option value="smaller">Smaller</option>
+						<option value="small">Small</option>
+					</select>
+
+					<div class="settings-label">
+						<span>Font:</span>
+					</div>
+					<select id="font">
+						<option value="noto-sans">Noto Sans</option>
+						<option value="serif">Serif</option>
+						<option value="sans-serif">Sans-serif</option>
+						<option value="monospace">Monospace</option>
+					</select>
+
+					<div class="settings-label">
+						<span>Theme:</span>
+					</div>
+					<select id="theme">
+						<option value="light">Light</option>
+						<option value="dark">Dark</option>
+						<option value="lowcontrast">Low Contrast</option>
+						<option value="lowcontrast-dark">Low Contrast Dark</option>
+					</select>
+
+				</div>
+				<div id="log-container">
+					<div id="non-encoder-warnings">
+						<div id="problematic-theme" class="warning">⚠️ Some scanners are unable to detect barcodes with a foreground lighter than the background</div>
+					</div>
+					<div id="log"></div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
